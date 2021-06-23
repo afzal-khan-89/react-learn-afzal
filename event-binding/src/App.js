@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import EventHandling from './Component/EventHandling';
+import Eventbinding from './Components/Eventbinding'
 
 function App() {
   return (
     <div className="App">
-        <EventHandling />
+      <Eventbinding />
     </div>
   );
 }

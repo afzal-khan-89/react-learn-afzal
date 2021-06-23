@@ -14,8 +14,7 @@ class Eventbinding extends Component {
                 <h1>Bind by Arrow funciton in render method ..</h1>
                 <BindByArrFunInRndrMethod />
                 <hr/>
-                <h1>Bind handler in constructor  ..</h1>
-                <BindingInConstructor />
+                <BindingInConstructor text='Bind handler in constructor  ..' />
                 <hr/>
                 <BindByArroFunction text='Bindy by arro function ' />
             </div>

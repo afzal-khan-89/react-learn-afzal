@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { PropsInFunction } from './Components/PropsInFunction';
 import PropsInClass from './Components/PropsInClass';
+import PropClassExt from './Components/PropClassExt';
+import PropFunctionExt from './Components/PropFunctionExt';
 
 function App() {
   return (
@@ -21,6 +23,13 @@ function App() {
       <PropsInClass bookName="Wuthering Heights" author="Emily Jane Bront"> 
         <p>Emily Jane Brontë was an English novelist and poet who is best known for her only novel, Wuthering Heights, now considered a classic of English.</p>
       </PropsInClass>
+
+      <hr/>
+        <h1>Destructuring </h1>
+        <PropClassExt name = "John" age="34" email="john@gmail.com" />
+        <PropClassExt name = "Rohn" age="12" email="rohn@gmail.com" />
+        <PropFunctionExt name = "John" age="34" email="john@gmail.com" />
+        <PropFunctionExt name = "John" age="34" email="john@gmail.com" />
     </div>
   );
 }
